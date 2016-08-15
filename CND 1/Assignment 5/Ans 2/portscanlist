@@ -1,0 +1,1165 @@
+Fetchfile found /usr/local/bin/../share/nmap/nmap-services
+Fetchfile found /usr/local/bin/../share/nmap/nmap.xsl
+# Nmap 6.47 scan initiated Wed Nov 18 01:26:11 2015 as: nmap -d -d -vv --reason -oN portscanlist 161.253.113.105
+--------------- Timing report ---------------
+  hostgroups: min 1, max 100000
+  rtt-timeouts: init 1000, min 100, max 10000
+  max-scan-delay: TCP 1000, UDP 1000, SCTP 1000
+  parallelism: min 0, max 0
+  max-retries: 10, host-timeout: 0
+  min-rate: 0, max-rate: 0
+---------------------------------------------
+Fetchfile found /usr/local/bin/../share/nmap/nmap-payloads
+Changing ping technique for 161.253.113.105 to connect to port 443
+Changing global ping host to 161.253.113.105.
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan PING SENT to 161.253.113.105 [connect to port 443]
+Ultrascan PING SENT to 161.253.113.105 [connect to port 443]
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Increasing send delay for 161.253.113.105 from 5 to 10 due to 46 out of 152 dropped probes since last increase.
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Increasing send delay for 161.253.113.105 from 10 to 20 due to 11 out of 15 dropped probes since last increase.
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan DROPPED probe packet to 161.253.113.105 detected
+Ultrascan PING SENT to 161.253.113.105 [connect to port 443]
+Changing global ping host to 161.253.113.105.
+Nmap scan report for 161.253.113.105
+Host is up, received conn-refused (0.0034s latency).
+Scanned at 2015-11-18 01:26:11 EST for 53s
+PORT      STATE    SERVICE              REASON
+1/tcp     closed   tcpmux               conn-refused
+3/tcp     closed   compressnet          conn-refused
+4/tcp     closed   unknown              conn-refused
+6/tcp     closed   unknown              conn-refused
+7/tcp     closed   echo                 conn-refused
+9/tcp     closed   discard              conn-refused
+13/tcp    closed   daytime              conn-refused
+17/tcp    closed   qotd                 conn-refused
+19/tcp    closed   chargen              conn-refused
+20/tcp    closed   ftp-data             conn-refused
+21/tcp    closed   ftp                  conn-refused
+22/tcp    filtered ssh                  no-response
+23/tcp    closed   telnet               conn-refused
+24/tcp    closed   priv-mail            conn-refused
+25/tcp    closed   smtp                 conn-refused
+26/tcp    closed   rsftp                conn-refused
+30/tcp    closed   unknown              conn-refused
+32/tcp    closed   unknown              conn-refused
+33/tcp    closed   dsp                  conn-refused
+37/tcp    closed   time                 conn-refused
+42/tcp    closed   nameserver           conn-refused
+43/tcp    closed   whois                conn-refused
+49/tcp    closed   tacacs               conn-refused
+53/tcp    closed   domain               conn-refused
+70/tcp    closed   gopher               conn-refused
+79/tcp    closed   finger               conn-refused
+80/tcp    closed   http                 conn-refused
+81/tcp    closed   hosts2-ns            conn-refused
+82/tcp    closed   xfer                 conn-refused
+83/tcp    closed   mit-ml-dev           conn-refused
+84/tcp    closed   ctf                  conn-refused
+85/tcp    closed   mit-ml-dev           conn-refused
+88/tcp    closed   kerberos-sec         conn-refused
+89/tcp    closed   su-mit-tg            conn-refused
+90/tcp    closed   dnsix                conn-refused
+99/tcp    closed   metagram             conn-refused
+100/tcp   closed   newacct              conn-refused
+106/tcp   closed   pop3pw               conn-refused
+109/tcp   closed   pop2                 conn-refused
+110/tcp   closed   pop3                 conn-refused
+111/tcp   closed   rpcbind              conn-refused
+113/tcp   closed   ident                conn-refused
+119/tcp   closed   nntp                 conn-refused
+125/tcp   closed   locus-map            conn-refused
+135/tcp   filtered msrpc                no-response
+139/tcp   filtered netbios-ssn          no-response
+143/tcp   closed   imap                 conn-refused
+144/tcp   closed   news                 conn-refused
+146/tcp   closed   iso-tp0              conn-refused
+161/tcp   closed   snmp                 conn-refused
+163/tcp   closed   cmip-man             conn-refused
+179/tcp   closed   bgp                  conn-refused
+199/tcp   closed   smux                 conn-refused
+211/tcp   closed   914c-g               conn-refused
+212/tcp   closed   anet                 conn-refused
+222/tcp   closed   rsh-spx              conn-refused
+254/tcp   closed   unknown              conn-refused
+255/tcp   closed   unknown              conn-refused
+256/tcp   closed   fw1-secureremote     conn-refused
+259/tcp   closed   esro-gen             conn-refused
+264/tcp   closed   bgmp                 conn-refused
+280/tcp   closed   http-mgmt            conn-refused
+301/tcp   closed   unknown              conn-refused
+306/tcp   closed   unknown              conn-refused
+311/tcp   closed   asip-webadmin        conn-refused
+340/tcp   closed   unknown              conn-refused
+366/tcp   closed   odmr                 conn-refused
+389/tcp   closed   ldap                 conn-refused
+406/tcp   closed   imsp                 conn-refused
+407/tcp   closed   timbuktu             conn-refused
+416/tcp   closed   silverplatter        conn-refused
+417/tcp   closed   onmux                conn-refused
+425/tcp   closed   icad-el              conn-refused
+427/tcp   closed   svrloc               conn-refused
+443/tcp   closed   https                conn-refused
+444/tcp   closed   snpp                 conn-refused
+445/tcp   filtered microsoft-ds         no-response
+458/tcp   closed   appleqtc             conn-refused
+464/tcp   closed   kpasswd5             conn-refused
+465/tcp   closed   smtps                conn-refused
+481/tcp   closed   dvs                  conn-refused
+497/tcp   closed   retrospect           conn-refused
+500/tcp   closed   isakmp               conn-refused
+512/tcp   closed   exec                 conn-refused
+513/tcp   closed   login                conn-refused
+514/tcp   closed   shell                conn-refused
+515/tcp   closed   printer              conn-refused
+524/tcp   closed   ncp                  conn-refused
+541/tcp   closed   uucp-rlogin          conn-refused
+543/tcp   closed   klogin               conn-refused
+544/tcp   closed   kshell               conn-refused
+545/tcp   closed   ekshell              conn-refused
+548/tcp   closed   afp                  conn-refused
+554/tcp   open     rtsp                 syn-ack
+555/tcp   closed   dsf                  conn-refused
+563/tcp   closed   snews                conn-refused
+587/tcp   closed   submission           conn-refused
+593/tcp   closed   http-rpc-epmap       conn-refused
+616/tcp   closed   sco-sysmgr           conn-refused
+617/tcp   closed   sco-dtmgr            conn-refused
+625/tcp   closed   apple-xsrvr-admin    conn-refused
+631/tcp   closed   ipp                  conn-refused
+636/tcp   closed   ldapssl              conn-refused
+646/tcp   closed   ldp                  conn-refused
+648/tcp   closed   rrp                  conn-refused
+666/tcp   closed   doom                 conn-refused
+667/tcp   closed   disclose             conn-refused
+668/tcp   closed   mecomm               conn-refused
+683/tcp   closed   corba-iiop           conn-refused
+687/tcp   closed   asipregistry         conn-refused
+691/tcp   closed   resvc                conn-refused
+700/tcp   closed   epp                  conn-refused
+705/tcp   closed   agentx               conn-refused
+711/tcp   closed   cisco-tdp            conn-refused
+714/tcp   closed   iris-xpcs            conn-refused
+720/tcp   closed   unknown              conn-refused
+722/tcp   closed   unknown              conn-refused
+726/tcp   closed   unknown              conn-refused
+749/tcp   closed   kerberos-adm         conn-refused
+765/tcp   closed   webster              conn-refused
+777/tcp   closed   multiling-http       conn-refused
+783/tcp   closed   spamassassin         conn-refused
+787/tcp   closed   qsc                  conn-refused
+800/tcp   closed   mdbs_daemon          conn-refused
+801/tcp   closed   device               conn-refused
+808/tcp   closed   ccproxy-http         conn-refused
+843/tcp   closed   unknown              conn-refused
+873/tcp   closed   rsync                conn-refused
+880/tcp   closed   unknown              conn-refused
+888/tcp   closed   accessbuilder        conn-refused
+898/tcp   closed   sun-manageconsole    conn-refused
+900/tcp   closed   omginitialrefs       conn-refused
+901/tcp   closed   samba-swat           conn-refused
+902/tcp   closed   iss-realsecure       conn-refused
+903/tcp   open     iss-console-mgr      syn-ack
+911/tcp   closed   xact-backup          conn-refused
+912/tcp   closed   apex-mesh            conn-refused
+981/tcp   closed   unknown              conn-refused
+987/tcp   closed   unknown              conn-refused
+990/tcp   closed   ftps                 conn-refused
+992/tcp   closed   telnets              conn-refused
+993/tcp   closed   imaps                conn-refused
+995/tcp   closed   pop3s                conn-refused
+999/tcp   closed   garcon               conn-refused
+1000/tcp  closed   cadlock              conn-refused
+1001/tcp  closed   unknown              conn-refused
+1002/tcp  closed   windows-icfw         conn-refused
+1007/tcp  closed   unknown              conn-refused
+1009/tcp  closed   unknown              conn-refused
+1010/tcp  closed   surf                 conn-refused
+1011/tcp  closed   unknown              conn-refused
+1021/tcp  closed   exp1                 conn-refused
+1022/tcp  closed   exp2                 conn-refused
+1023/tcp  closed   netvenuechat         conn-refused
+1024/tcp  closed   kdm                  conn-refused
+1025/tcp  closed   NFS-or-IIS           conn-refused
+1026/tcp  closed   LSA-or-nterm         conn-refused
+1027/tcp  closed   IIS                  conn-refused
+1028/tcp  closed   unknown              conn-refused
+1029/tcp  closed   ms-lsa               conn-refused
+1030/tcp  closed   iad1                 conn-refused
+1031/tcp  closed   iad2                 conn-refused
+1032/tcp  closed   iad3                 conn-refused
+1033/tcp  closed   netinfo              conn-refused
+1034/tcp  closed   zincite-a            conn-refused
+1035/tcp  closed   multidropper         conn-refused
+1036/tcp  closed   nsstp                conn-refused
+1037/tcp  closed   ams                  conn-refused
+1038/tcp  closed   mtqp                 conn-refused
+1039/tcp  closed   sbl                  conn-refused
+1040/tcp  closed   netsaint             conn-refused
+1041/tcp  closed   danf-ak2             conn-refused
+1042/tcp  closed   afrog                conn-refused
+1043/tcp  closed   boinc                conn-refused
+1044/tcp  closed   dcutility            conn-refused
+1045/tcp  closed   fpitp                conn-refused
+1046/tcp  closed   wfremotertm          conn-refused
+1047/tcp  closed   neod1                conn-refused
+1048/tcp  closed   neod2                conn-refused
+1049/tcp  closed   td-postman           conn-refused
+1050/tcp  closed   java-or-OTGfileshare conn-refused
+1051/tcp  closed   optima-vnet          conn-refused
+1052/tcp  closed   ddt                  conn-refused
+1053/tcp  closed   remote-as            conn-refused
+1054/tcp  closed   brvread              conn-refused
+1055/tcp  closed   ansyslmd             conn-refused
+1056/tcp  closed   vfo                  conn-refused
+1057/tcp  closed   startron             conn-refused
+1058/tcp  closed   nim                  conn-refused
+1059/tcp  closed   nimreg               conn-refused
+1060/tcp  closed   polestar             conn-refused
+1061/tcp  closed   kiosk                conn-refused
+1062/tcp  closed   veracity             conn-refused
+1063/tcp  closed   kyoceranetdev        conn-refused
+1064/tcp  closed   jstel                conn-refused
+1065/tcp  closed   syscomlan            conn-refused
+1066/tcp  closed   fpo-fns              conn-refused
+1067/tcp  closed   instl_boots          conn-refused
+1068/tcp  closed   instl_bootc          conn-refused
+1069/tcp  closed   cognex-insight       conn-refused
+1070/tcp  closed   gmrupdateserv        conn-refused
+1071/tcp  closed   bsquare-voip         conn-refused
+1072/tcp  closed   cardax               conn-refused
+1073/tcp  closed   bridgecontrol        conn-refused
+1074/tcp  closed   warmspotMgmt         conn-refused
+1075/tcp  closed   rdrmshc              conn-refused
+1076/tcp  closed   sns_credit           conn-refused
+1077/tcp  closed   imgames              conn-refused
+1078/tcp  closed   avocent-proxy        conn-refused
+1079/tcp  closed   asprovatalk          conn-refused
+1080/tcp  closed   socks                conn-refused
+1081/tcp  closed   pvuniwien            conn-refused
+1082/tcp  closed   amt-esd-prot         conn-refused
+1083/tcp  closed   ansoft-lm-1          conn-refused
+1084/tcp  closed   ansoft-lm-2          conn-refused
+1085/tcp  closed   webobjects           conn-refused
+1086/tcp  closed   cplscrambler-lg      conn-refused
+1087/tcp  closed   cplscrambler-in      conn-refused
+1088/tcp  closed   cplscrambler-al      conn-refused
+1089/tcp  closed   ff-annunc            conn-refused
+1090/tcp  closed   ff-fms               conn-refused
+1091/tcp  closed   ff-sm                conn-refused
+1092/tcp  closed   obrpd                conn-refused
+1093/tcp  closed   proofd               conn-refused
+1094/tcp  closed   rootd                conn-refused
+1095/tcp  closed   nicelink             conn-refused
+1096/tcp  closed   cnrprotocol          conn-refused
+1097/tcp  closed   sunclustermgr        conn-refused
+1098/tcp  closed   rmiactivation        conn-refused
+1099/tcp  closed   rmiregistry          conn-refused
+1100/tcp  closed   mctp                 conn-refused
+1102/tcp  closed   adobeserver-1        conn-refused
+1104/tcp  closed   xrl                  conn-refused
+1105/tcp  closed   ftranhc              conn-refused
+1106/tcp  closed   isoipsigport-1       conn-refused
+1107/tcp  closed   isoipsigport-2       conn-refused
+1108/tcp  closed   ratio-adp            conn-refused
+1110/tcp  filtered nfsd-status          no-response
+1111/tcp  closed   lmsocialserver       conn-refused
+1112/tcp  closed   msql                 conn-refused
+1113/tcp  closed   ltp-deepspace        conn-refused
+1114/tcp  closed   mini-sql             conn-refused
+1117/tcp  closed   ardus-mtrns          conn-refused
+1119/tcp  closed   bnetgame             conn-refused
+1121/tcp  closed   rmpp                 conn-refused
+1122/tcp  closed   availant-mgr         conn-refused
+1123/tcp  closed   murray               conn-refused
+1124/tcp  closed   hpvmmcontrol         conn-refused
+1126/tcp  closed   hpvmmdata            conn-refused
+1130/tcp  closed   casp                 conn-refused
+1131/tcp  closed   caspssl              conn-refused
+1132/tcp  closed   kvm-via-ip           conn-refused
+1137/tcp  closed   trim                 conn-refused
+1138/tcp  closed   encrypted_admin      conn-refused
+1141/tcp  closed   mxomss               conn-refused
+1145/tcp  closed   x9-icue              conn-refused
+1147/tcp  closed   capioverlan          conn-refused
+1148/tcp  closed   elfiq-repl           conn-refused
+1149/tcp  closed   bvtsonar             conn-refused
+1151/tcp  closed   unizensus            conn-refused
+1152/tcp  closed   winpoplanmess        conn-refused
+1154/tcp  closed   resacommunity        conn-refused
+1163/tcp  closed   sddp                 conn-refused
+1164/tcp  closed   qsm-proxy            conn-refused
+1165/tcp  closed   qsm-gui              conn-refused
+1166/tcp  closed   qsm-remote           conn-refused
+1169/tcp  closed   tripwire             conn-refused
+1174/tcp  closed   fnet-remote-ui       conn-refused
+1175/tcp  closed   dossier              conn-refused
+1183/tcp  closed   llsurfup-http        conn-refused
+1185/tcp  closed   catchpole            conn-refused
+1186/tcp  closed   mysql-cluster        conn-refused
+1187/tcp  closed   alias                conn-refused
+1192/tcp  closed   caids-sensor         conn-refused
+1198/tcp  closed   cajo-discovery       conn-refused
+1199/tcp  closed   dmidi                conn-refused
+1201/tcp  closed   nucleus-sand         conn-refused
+1213/tcp  closed   mpc-lifenet          conn-refused
+1216/tcp  closed   etebac5              conn-refused
+1217/tcp  closed   hpss-ndapi           conn-refused
+1218/tcp  closed   aeroflight-ads       conn-refused
+1233/tcp  closed   univ-appserver       conn-refused
+1234/tcp  closed   hotline              conn-refused
+1236/tcp  closed   bvcontrol            conn-refused
+1244/tcp  closed   isbconference1       conn-refused
+1247/tcp  closed   visionpyramid        conn-refused
+1248/tcp  closed   hermes               conn-refused
+1259/tcp  closed   opennl-voice         conn-refused
+1271/tcp  closed   excw                 conn-refused
+1272/tcp  closed   cspmlockmgr          conn-refused
+1277/tcp  closed   miva-mqs             conn-refused
+1287/tcp  closed   routematch           conn-refused
+1296/tcp  closed   dproxy               conn-refused
+1300/tcp  closed   h323hostcallsc       conn-refused
+1301/tcp  closed   ci3-software-1       conn-refused
+1309/tcp  closed   jtag-server          conn-refused
+1310/tcp  closed   husky                conn-refused
+1311/tcp  closed   rxmon                conn-refused
+1322/tcp  closed   novation             conn-refused
+1328/tcp  closed   ewall                conn-refused
+1334/tcp  closed   writesrv             conn-refused
+1352/tcp  closed   lotusnotes           conn-refused
+1417/tcp  closed   timbuktu-srv1        conn-refused
+1433/tcp  closed   ms-sql-s             conn-refused
+1434/tcp  closed   ms-sql-m             conn-refused
+1443/tcp  closed   ies-lm               conn-refused
+1455/tcp  closed   esl-lm               conn-refused
+1461/tcp  closed   ibm_wrless_lan       conn-refused
+1494/tcp  closed   citrix-ica           conn-refused
+1500/tcp  closed   vlsi-lm              conn-refused
+1501/tcp  closed   sas-3                conn-refused
+1503/tcp  closed   imtc-mcs             conn-refused
+1521/tcp  closed   oracle               conn-refused
+1524/tcp  closed   ingreslock           conn-refused
+1533/tcp  closed   virtual-places       conn-refused
+1556/tcp  closed   veritas_pbx          conn-refused
+1580/tcp  closed   tn-tl-r1             conn-refused
+1583/tcp  closed   simbaexpress         conn-refused
+1594/tcp  closed   sixtrak              conn-refused
+1600/tcp  closed   issd                 conn-refused
+1641/tcp  closed   invision             conn-refused
+1658/tcp  closed   sixnetudr            conn-refused
+1666/tcp  closed   netview-aix-6        conn-refused
+1687/tcp  closed   nsjtp-ctrl           conn-refused
+1688/tcp  closed   nsjtp-data           conn-refused
+1700/tcp  closed   mps-raft             conn-refused
+1717/tcp  closed   fj-hdnet             conn-refused
+1718/tcp  closed   h323gatedisc         conn-refused
+1719/tcp  closed   h323gatestat         conn-refused
+1720/tcp  closed   H.323/Q.931          conn-refused
+1721/tcp  closed   caicci               conn-refused
+1723/tcp  closed   pptp                 conn-refused
+1755/tcp  closed   wms                  conn-refused
+1761/tcp  closed   landesk-rc           conn-refused
+1782/tcp  closed   hp-hcip              conn-refused
+1783/tcp  closed   unknown              conn-refused
+1801/tcp  closed   msmq                 conn-refused
+1805/tcp  closed   enl-name             conn-refused
+1812/tcp  closed   radius               conn-refused
+1839/tcp  closed   netopia-vo1          conn-refused
+1840/tcp  closed   netopia-vo2          conn-refused
+1862/tcp  closed   mysql-cm-agent       conn-refused
+1863/tcp  closed   msnp                 conn-refused
+1864/tcp  closed   paradym-31           conn-refused
+1875/tcp  closed   westell-stats        conn-refused
+1900/tcp  closed   upnp                 conn-refused
+1914/tcp  closed   elm-momentum         conn-refused
+1935/tcp  closed   rtmp                 conn-refused
+1947/tcp  closed   sentinelsrm          conn-refused
+1971/tcp  closed   netop-school         conn-refused
+1972/tcp  closed   intersys-cache       conn-refused
+1974/tcp  closed   drp                  conn-refused
+1984/tcp  closed   bigbrother           conn-refused
+1998/tcp  closed   x25-svc-port         conn-refused
+1999/tcp  closed   tcp-id-port          conn-refused
+2000/tcp  closed   cisco-sccp           conn-refused
+2001/tcp  closed   dc                   conn-refused
+2002/tcp  closed   globe                conn-refused
+2003/tcp  closed   finger               conn-refused
+2004/tcp  closed   mailbox              conn-refused
+2005/tcp  closed   deslogin             conn-refused
+2006/tcp  closed   invokator            conn-refused
+2007/tcp  closed   dectalk              conn-refused
+2008/tcp  closed   conf                 conn-refused
+2009/tcp  closed   news                 conn-refused
+2010/tcp  closed   search               conn-refused
+2013/tcp  closed   raid-am              conn-refused
+2020/tcp  closed   xinupageserver       conn-refused
+2021/tcp  closed   servexec             conn-refused
+2022/tcp  closed   down                 conn-refused
+2030/tcp  closed   device2              conn-refused
+2033/tcp  closed   glogger              conn-refused
+2034/tcp  closed   scoremgr             conn-refused
+2035/tcp  closed   imsldoc              conn-refused
+2038/tcp  closed   objectmanager        conn-refused
+2040/tcp  closed   lam                  conn-refused
+2041/tcp  closed   interbase            conn-refused
+2042/tcp  closed   isis                 conn-refused
+2043/tcp  closed   isis-bcast           conn-refused
+2045/tcp  closed   cdfunc               conn-refused
+2046/tcp  closed   sdfunc               conn-refused
+2047/tcp  closed   dls                  conn-refused
+2048/tcp  closed   dls-monitor          conn-refused
+2049/tcp  closed   nfs                  conn-refused
+2065/tcp  closed   dlsrpn               conn-refused
+2068/tcp  closed   advocentkvm          conn-refused
+2099/tcp  closed   h2250-annex-g        conn-refused
+2100/tcp  closed   amiganetfs           conn-refused
+2103/tcp  closed   zephyr-clt           conn-refused
+2105/tcp  closed   eklogin              conn-refused
+2106/tcp  closed   ekshell              conn-refused
+2107/tcp  closed   msmq-mgmt            conn-refused
+2111/tcp  closed   kx                   conn-refused
+2119/tcp  closed   gsigatekeeper        conn-refused
+2121/tcp  closed   ccproxy-ftp          conn-refused
+2126/tcp  closed   pktcable-cops        conn-refused
+2135/tcp  closed   gris                 conn-refused
+2144/tcp  closed   lv-ffx               conn-refused
+2160/tcp  closed   apc-2160             conn-refused
+2161/tcp  closed   apc-agent            conn-refused
+2170/tcp  closed   eyetv                conn-refused
+2179/tcp  closed   vmrdp                conn-refused
+2190/tcp  closed   tivoconnect          conn-refused
+2191/tcp  closed   tvbus                conn-refused
+2196/tcp  closed   unknown              conn-refused
+2200/tcp  closed   ici                  conn-refused
+2222/tcp  closed   EtherNet/IP-1        conn-refused
+2251/tcp  closed   dif-port             conn-refused
+2260/tcp  closed   apc-2260             conn-refused
+2288/tcp  closed   netml                conn-refused
+2301/tcp  closed   compaqdiag           conn-refused
+2323/tcp  closed   3d-nfsd              conn-refused
+2366/tcp  closed   qip-login            conn-refused
+2381/tcp  closed   compaq-https         conn-refused
+2382/tcp  closed   ms-olap3             conn-refused
+2383/tcp  closed   ms-olap4             conn-refused
+2393/tcp  closed   ms-olap1             conn-refused
+2394/tcp  closed   ms-olap2             conn-refused
+2399/tcp  closed   fmpro-fdal           conn-refused
+2401/tcp  closed   cvspserver           conn-refused
+2492/tcp  closed   groove               conn-refused
+2500/tcp  closed   rtsserv              conn-refused
+2522/tcp  closed   windb                conn-refused
+2525/tcp  closed   ms-v-worlds          conn-refused
+2557/tcp  closed   nicetec-mgmt         conn-refused
+2601/tcp  closed   zebra                conn-refused
+2602/tcp  closed   ripd                 conn-refused
+2604/tcp  closed   ospfd                conn-refused
+2605/tcp  closed   bgpd                 conn-refused
+2607/tcp  closed   connection           conn-refused
+2608/tcp  closed   wag-service          conn-refused
+2638/tcp  closed   sybase               conn-refused
+2701/tcp  closed   sms-rcinfo           conn-refused
+2702/tcp  closed   sms-xfer             conn-refused
+2710/tcp  closed   sso-service          conn-refused
+2717/tcp  closed   pn-requester         conn-refused
+2718/tcp  closed   pn-requester2        conn-refused
+2725/tcp  closed   msolap-ptp2          conn-refused
+2800/tcp  closed   acc-raid             conn-refused
+2809/tcp  closed   corbaloc             conn-refused
+2811/tcp  closed   gsiftp               conn-refused
+2869/tcp  filtered icslap               no-response
+2875/tcp  closed   dxmessagebase2       conn-refused
+2909/tcp  closed   funk-dialout         conn-refused
+2910/tcp  closed   tdaccess             conn-refused
+2920/tcp  closed   roboeda              conn-refused
+2967/tcp  closed   symantec-av          conn-refused
+2968/tcp  closed   enpp                 conn-refused
+2998/tcp  closed   iss-realsec          conn-refused
+3000/tcp  closed   ppp                  conn-refused
+3001/tcp  closed   nessus               conn-refused
+3003/tcp  closed   cgms                 conn-refused
+3005/tcp  closed   deslogin             conn-refused
+3006/tcp  closed   deslogind            conn-refused
+3007/tcp  closed   lotusmtap            conn-refused
+3011/tcp  closed   trusted-web          conn-refused
+3013/tcp  closed   gilatskysurfer       conn-refused
+3017/tcp  closed   event_listener       conn-refused
+3030/tcp  closed   arepa-cas            conn-refused
+3031/tcp  closed   eppc                 conn-refused
+3052/tcp  closed   powerchute           conn-refused
+3071/tcp  closed   csd-mgmt-port        conn-refused
+3077/tcp  closed   orbix-loc-ssl        conn-refused
+3128/tcp  closed   squid-http           conn-refused
+3168/tcp  closed   poweronnud           conn-refused
+3211/tcp  closed   avsecuremgmt         conn-refused
+3221/tcp  closed   xnm-clear-text       conn-refused
+3260/tcp  closed   iscsi                conn-refused
+3261/tcp  closed   winshadow            conn-refused
+3268/tcp  closed   globalcatLDAP        conn-refused
+3269/tcp  closed   globalcatLDAPssl     conn-refused
+3283/tcp  closed   netassistant         conn-refused
+3300/tcp  closed   unknown              conn-refused
+3301/tcp  closed   unknown              conn-refused
+3306/tcp  closed   mysql                conn-refused
+3322/tcp  closed   active-net           conn-refused
+3323/tcp  closed   active-net           conn-refused
+3324/tcp  closed   active-net           conn-refused
+3325/tcp  closed   active-net           conn-refused
+3333/tcp  closed   dec-notes            conn-refused
+3351/tcp  closed   btrieve              conn-refused
+3367/tcp  closed   satvid-datalnk       conn-refused
+3369/tcp  closed   satvid-datalnk       conn-refused
+3370/tcp  closed   satvid-datalnk       conn-refused
+3371/tcp  closed   satvid-datalnk       conn-refused
+3372/tcp  closed   msdtc                conn-refused
+3389/tcp  filtered ms-wbt-server        no-response
+3390/tcp  closed   dsc                  conn-refused
+3404/tcp  closed   unknown              conn-refused
+3476/tcp  closed   nppmp                conn-refused
+3493/tcp  closed   nut                  conn-refused
+3517/tcp  closed   802-11-iapp          conn-refused
+3527/tcp  closed   beserver-msg-q       conn-refused
+3546/tcp  closed   unknown              conn-refused
+3551/tcp  closed   apcupsd              conn-refused
+3580/tcp  closed   nati-svrloc          conn-refused
+3659/tcp  closed   apple-sasl           conn-refused
+3689/tcp  closed   rendezvous           conn-refused
+3690/tcp  closed   svn                  conn-refused
+3703/tcp  closed   adobeserver-3        conn-refused
+3737/tcp  closed   xpanel               conn-refused
+3766/tcp  closed   unknown              conn-refused
+3784/tcp  closed   bfd-control          conn-refused
+3800/tcp  closed   pwgpsi               conn-refused
+3801/tcp  closed   ibm-mgr              conn-refused
+3809/tcp  closed   apocd                conn-refused
+3814/tcp  closed   neto-dcs             conn-refused
+3826/tcp  closed   wormux               conn-refused
+3827/tcp  closed   netmpi               conn-refused
+3828/tcp  closed   neteh                conn-refused
+3851/tcp  closed   spectraport          conn-refused
+3869/tcp  closed   ovsam-mgmt           conn-refused
+3871/tcp  closed   avocent-adsap        conn-refused
+3878/tcp  closed   fotogcad             conn-refused
+3880/tcp  closed   igrs                 conn-refused
+3889/tcp  closed   dandv-tester         conn-refused
+3905/tcp  closed   mupdate              conn-refused
+3914/tcp  closed   listcrt-port-2       conn-refused
+3918/tcp  closed   pktcablemmcops       conn-refused
+3920/tcp  closed   exasoftport1         conn-refused
+3945/tcp  closed   emcads               conn-refused
+3971/tcp  closed   lanrevserver         conn-refused
+3986/tcp  closed   mapper-ws_ethd       conn-refused
+3995/tcp  closed   iss-mgmt-ssl         conn-refused
+3998/tcp  closed   dnx                  conn-refused
+4000/tcp  closed   remoteanything       conn-refused
+4001/tcp  closed   newoak               conn-refused
+4002/tcp  closed   mlchat-proxy         conn-refused
+4003/tcp  closed   pxc-splr-ft          conn-refused
+4004/tcp  closed   pxc-roid             conn-refused
+4005/tcp  closed   pxc-pin              conn-refused
+4006/tcp  closed   pxc-spvr             conn-refused
+4045/tcp  closed   lockd                conn-refused
+4111/tcp  closed   xgrid                conn-refused
+4125/tcp  closed   rww                  conn-refused
+4126/tcp  closed   ddrepl               conn-refused
+4129/tcp  closed   nuauth               conn-refused
+4224/tcp  closed   xtell                conn-refused
+4242/tcp  closed   vrml-multi-use       conn-refused
+4279/tcp  closed   vrml-multi-use       conn-refused
+4321/tcp  closed   rwhois               conn-refused
+4343/tcp  closed   unicall              conn-refused
+4443/tcp  closed   pharos               conn-refused
+4444/tcp  closed   krb524               conn-refused
+4445/tcp  closed   upnotifyp            conn-refused
+4446/tcp  closed   n1-fwp               conn-refused
+4449/tcp  closed   privatewire          conn-refused
+4550/tcp  closed   gds-adppiw-db        conn-refused
+4567/tcp  closed   tram                 conn-refused
+4662/tcp  closed   edonkey              conn-refused
+4848/tcp  closed   appserv-http         conn-refused
+4899/tcp  closed   radmin               conn-refused
+4900/tcp  closed   hfcs                 conn-refused
+4998/tcp  closed   maybe-veritas        conn-refused
+5000/tcp  closed   upnp                 conn-refused
+5001/tcp  closed   commplex-link        conn-refused
+5002/tcp  closed   rfe                  conn-refused
+5003/tcp  closed   filemaker            conn-refused
+5004/tcp  closed   avt-profile-1        conn-refused
+5009/tcp  closed   airport-admin        conn-refused
+5030/tcp  closed   surfpass             conn-refused
+5033/tcp  closed   unknown              conn-refused
+5050/tcp  closed   mmcc                 conn-refused
+5051/tcp  closed   ida-agent            conn-refused
+5054/tcp  closed   rlm-admin            conn-refused
+5060/tcp  closed   sip                  conn-refused
+5061/tcp  closed   sip-tls              conn-refused
+5080/tcp  closed   onscreen             conn-refused
+5087/tcp  closed   unknown              conn-refused
+5100/tcp  closed   admd                 conn-refused
+5101/tcp  closed   admdog               conn-refused
+5102/tcp  closed   admeng               conn-refused
+5120/tcp  closed   unknown              conn-refused
+5190/tcp  closed   aol                  conn-refused
+5200/tcp  closed   targus-getdata       conn-refused
+5214/tcp  closed   unknown              conn-refused
+5221/tcp  closed   3exmp                conn-refused
+5222/tcp  closed   xmpp-client          conn-refused
+5225/tcp  closed   hp-server            conn-refused
+5226/tcp  closed   hp-status            conn-refused
+5269/tcp  closed   xmpp-server          conn-refused
+5280/tcp  closed   xmpp-bosh            conn-refused
+5298/tcp  closed   presence             conn-refused
+5357/tcp  open     wsdapi               syn-ack
+5405/tcp  closed   pcduo                conn-refused
+5414/tcp  closed   statusd              conn-refused
+5431/tcp  closed   park-agent           conn-refused
+5432/tcp  closed   postgresql           conn-refused
+5440/tcp  closed   unknown              conn-refused
+5500/tcp  closed   hotline              conn-refused
+5510/tcp  closed   secureidprop         conn-refused
+5544/tcp  closed   unknown              conn-refused
+5550/tcp  closed   sdadmind             conn-refused
+5555/tcp  closed   freeciv              conn-refused
+5560/tcp  closed   isqlplus             conn-refused
+5566/tcp  closed   westec-connect       conn-refused
+5631/tcp  closed   pcanywheredata       conn-refused
+5633/tcp  closed   beorl                conn-refused
+5666/tcp  closed   nrpe                 conn-refused
+5678/tcp  closed   rrac                 conn-refused
+5679/tcp  closed   activesync           conn-refused
+5718/tcp  closed   dpm                  conn-refused
+5730/tcp  closed   unieng               conn-refused
+5800/tcp  closed   vnc-http             conn-refused
+5801/tcp  closed   vnc-http-1           conn-refused
+5802/tcp  closed   vnc-http-2           conn-refused
+5810/tcp  closed   unknown              conn-refused
+5811/tcp  closed   unknown              conn-refused
+5815/tcp  closed   unknown              conn-refused
+5822/tcp  closed   unknown              conn-refused
+5825/tcp  closed   unknown              conn-refused
+5850/tcp  closed   unknown              conn-refused
+5859/tcp  closed   wherehoo             conn-refused
+5862/tcp  closed   unknown              conn-refused
+5877/tcp  closed   unknown              conn-refused
+5900/tcp  closed   vnc                  conn-refused
+5901/tcp  closed   vnc-1                conn-refused
+5902/tcp  closed   vnc-2                conn-refused
+5903/tcp  closed   vnc-3                conn-refused
+5904/tcp  closed   unknown              conn-refused
+5906/tcp  closed   unknown              conn-refused
+5907/tcp  closed   unknown              conn-refused
+5910/tcp  closed   cm                   conn-refused
+5911/tcp  closed   cpdlc                conn-refused
+5915/tcp  closed   unknown              conn-refused
+5922/tcp  closed   unknown              conn-refused
+5925/tcp  closed   unknown              conn-refused
+5950/tcp  closed   unknown              conn-refused
+5952/tcp  closed   unknown              conn-refused
+5959/tcp  closed   unknown              conn-refused
+5960/tcp  closed   unknown              conn-refused
+5961/tcp  closed   unknown              conn-refused
+5962/tcp  closed   unknown              conn-refused
+5963/tcp  closed   indy                 conn-refused
+5987/tcp  closed   wbem-rmi             conn-refused
+5988/tcp  closed   wbem-http            conn-refused
+5989/tcp  closed   wbem-https           conn-refused
+5998/tcp  closed   ncd-diag             conn-refused
+5999/tcp  closed   ncd-conf             conn-refused
+6000/tcp  closed   X11                  conn-refused
+6001/tcp  closed   X11:1                conn-refused
+6002/tcp  closed   X11:2                conn-refused
+6003/tcp  closed   X11:3                conn-refused
+6004/tcp  closed   X11:4                conn-refused
+6005/tcp  closed   X11:5                conn-refused
+6006/tcp  closed   X11:6                conn-refused
+6007/tcp  closed   X11:7                conn-refused
+6009/tcp  closed   X11:9                conn-refused
+6025/tcp  closed   x11                  conn-refused
+6059/tcp  closed   X11:59               conn-refused
+6100/tcp  closed   synchronet-db        conn-refused
+6101/tcp  closed   backupexec           conn-refused
+6106/tcp  closed   isdninfo             conn-refused
+6112/tcp  closed   dtspc                conn-refused
+6123/tcp  closed   backup-express       conn-refused
+6129/tcp  closed   unknown              conn-refused
+6156/tcp  closed   unknown              conn-refused
+6346/tcp  closed   gnutella             conn-refused
+6389/tcp  closed   clariion-evr01       conn-refused
+6502/tcp  closed   netop-rc             conn-refused
+6510/tcp  closed   mcer-port            conn-refused
+6543/tcp  closed   mythtv               conn-refused
+6547/tcp  closed   powerchuteplus       conn-refused
+6565/tcp  closed   unknown              conn-refused
+6566/tcp  closed   sane-port            conn-refused
+6567/tcp  closed   esp                  conn-refused
+6580/tcp  closed   parsec-master        conn-refused
+6646/tcp  closed   unknown              conn-refused
+6666/tcp  closed   irc                  conn-refused
+6667/tcp  closed   irc                  conn-refused
+6668/tcp  closed   irc                  conn-refused
+6669/tcp  closed   irc                  conn-refused
+6689/tcp  closed   tsa                  conn-refused
+6692/tcp  closed   unknown              conn-refused
+6699/tcp  closed   napster              conn-refused
+6779/tcp  closed   unknown              conn-refused
+6788/tcp  closed   smc-http             conn-refused
+6789/tcp  closed   ibm-db2-admin        conn-refused
+6792/tcp  closed   unknown              conn-refused
+6839/tcp  closed   unknown              conn-refused
+6881/tcp  closed   bittorrent-tracker   conn-refused
+6901/tcp  closed   jetstream            conn-refused
+6969/tcp  closed   acmsoda              conn-refused
+7000/tcp  closed   afs3-fileserver      conn-refused
+7001/tcp  closed   afs3-callback        conn-refused
+7002/tcp  closed   afs3-prserver        conn-refused
+7004/tcp  closed   afs3-kaserver        conn-refused
+7007/tcp  closed   afs3-bos             conn-refused
+7019/tcp  closed   unknown              conn-refused
+7025/tcp  closed   vmsvc-2              conn-refused
+7070/tcp  closed   realserver           conn-refused
+7100/tcp  closed   font-service         conn-refused
+7103/tcp  closed   unknown              conn-refused
+7106/tcp  closed   unknown              conn-refused
+7200/tcp  closed   fodms                conn-refused
+7201/tcp  closed   dlip                 conn-refused
+7402/tcp  closed   rtps-dd-mt           conn-refused
+7435/tcp  closed   unknown              conn-refused
+7443/tcp  closed   oracleas-https       conn-refused
+7496/tcp  closed   unknown              conn-refused
+7512/tcp  closed   unknown              conn-refused
+7625/tcp  closed   unknown              conn-refused
+7627/tcp  closed   soap-http            conn-refused
+7676/tcp  closed   imqbrokerd           conn-refused
+7741/tcp  closed   scriptview           conn-refused
+7777/tcp  closed   cbt                  conn-refused
+7778/tcp  closed   interwise            conn-refused
+7800/tcp  closed   asr                  conn-refused
+7911/tcp  closed   unknown              conn-refused
+7920/tcp  closed   unknown              conn-refused
+7921/tcp  closed   unknown              conn-refused
+7937/tcp  closed   nsrexecd             conn-refused
+7938/tcp  closed   lgtomapper           conn-refused
+7999/tcp  closed   irdmi2               conn-refused
+8000/tcp  open     http-alt             syn-ack
+8001/tcp  closed   vcom-tunnel          conn-refused
+8002/tcp  closed   teradataordbms       conn-refused
+8007/tcp  closed   ajp12                conn-refused
+8008/tcp  closed   http                 conn-refused
+8009/tcp  closed   ajp13                conn-refused
+8010/tcp  closed   xmpp                 conn-refused
+8011/tcp  closed   unknown              conn-refused
+8021/tcp  closed   ftp-proxy            conn-refused
+8022/tcp  closed   oa-system            conn-refused
+8031/tcp  closed   unknown              conn-refused
+8042/tcp  closed   fs-agent             conn-refused
+8045/tcp  closed   unknown              conn-refused
+8080/tcp  closed   http-proxy           conn-refused
+8081/tcp  closed   blackice-icecap      conn-refused
+8082/tcp  closed   blackice-alerts      conn-refused
+8083/tcp  closed   us-srv               conn-refused
+8084/tcp  closed   unknown              conn-refused
+8085/tcp  closed   unknown              conn-refused
+8086/tcp  closed   d-s-n                conn-refused
+8087/tcp  closed   simplifymedia        conn-refused
+8088/tcp  closed   radan-http           conn-refused
+8089/tcp  open     unknown              syn-ack
+8090/tcp  closed   unknown              conn-refused
+8093/tcp  closed   unknown              conn-refused
+8099/tcp  closed   unknown              conn-refused
+8100/tcp  closed   xprint-server        conn-refused
+8180/tcp  closed   unknown              conn-refused
+8181/tcp  closed   unknown              conn-refused
+8192/tcp  closed   sophos               conn-refused
+8193/tcp  closed   sophos               conn-refused
+8194/tcp  closed   sophos               conn-refused
+8200/tcp  closed   trivnet1             conn-refused
+8222/tcp  closed   unknown              conn-refused
+8254/tcp  closed   unknown              conn-refused
+8290/tcp  closed   unknown              conn-refused
+8291/tcp  closed   unknown              conn-refused
+8292/tcp  closed   blp3                 conn-refused
+8300/tcp  closed   tmi                  conn-refused
+8333/tcp  closed   unknown              conn-refused
+8383/tcp  closed   m2mservices          conn-refused
+8400/tcp  closed   cvd                  conn-refused
+8402/tcp  closed   abarsd               conn-refused
+8443/tcp  closed   https-alt            conn-refused
+8500/tcp  closed   fmtp                 conn-refused
+8600/tcp  closed   asterix              conn-refused
+8649/tcp  closed   unknown              conn-refused
+8651/tcp  closed   unknown              conn-refused
+8652/tcp  closed   unknown              conn-refused
+8654/tcp  closed   unknown              conn-refused
+8701/tcp  closed   unknown              conn-refused
+8800/tcp  closed   sunwebadmin          conn-refused
+8873/tcp  closed   dxspider             conn-refused
+8888/tcp  closed   sun-answerbook       conn-refused
+8899/tcp  closed   ospf-lite            conn-refused
+8994/tcp  closed   unknown              conn-refused
+9000/tcp  closed   cslistener           conn-refused
+9001/tcp  closed   tor-orport           conn-refused
+9002/tcp  closed   dynamid              conn-refused
+9003/tcp  closed   unknown              conn-refused
+9009/tcp  closed   pichat               conn-refused
+9010/tcp  closed   sdr                  conn-refused
+9011/tcp  closed   unknown              conn-refused
+9040/tcp  closed   tor-trans            conn-refused
+9050/tcp  closed   tor-socks            conn-refused
+9071/tcp  closed   unknown              conn-refused
+9080/tcp  closed   glrpc                conn-refused
+9081/tcp  closed   unknown              conn-refused
+9090/tcp  closed   zeus-admin           conn-refused
+9091/tcp  closed   xmltec-xmlmail       conn-refused
+9099/tcp  closed   unknown              conn-refused
+9100/tcp  closed   jetdirect            conn-refused
+9101/tcp  closed   jetdirect            conn-refused
+9102/tcp  closed   jetdirect            conn-refused
+9103/tcp  closed   jetdirect            conn-refused
+9110/tcp  closed   unknown              conn-refused
+9111/tcp  closed   DragonIDSConsole     conn-refused
+9200/tcp  closed   wap-wsp              conn-refused
+9207/tcp  closed   wap-vcal-s           conn-refused
+9220/tcp  closed   unknown              conn-refused
+9290/tcp  closed   unknown              conn-refused
+9415/tcp  closed   unknown              conn-refused
+9418/tcp  closed   git                  conn-refused
+9485/tcp  closed   unknown              conn-refused
+9500/tcp  closed   ismserver            conn-refused
+9502/tcp  closed   unknown              conn-refused
+9503/tcp  closed   unknown              conn-refused
+9535/tcp  closed   man                  conn-refused
+9575/tcp  closed   unknown              conn-refused
+9593/tcp  closed   cba8                 conn-refused
+9594/tcp  closed   msgsys               conn-refused
+9595/tcp  closed   pds                  conn-refused
+9618/tcp  closed   condor               conn-refused
+9666/tcp  closed   unknown              conn-refused
+9876/tcp  closed   sd                   conn-refused
+9877/tcp  closed   unknown              conn-refused
+9878/tcp  closed   unknown              conn-refused
+9898/tcp  closed   monkeycom            conn-refused
+9900/tcp  closed   iua                  conn-refused
+9917/tcp  closed   unknown              conn-refused
+9929/tcp  closed   nping-echo           conn-refused
+9943/tcp  closed   unknown              conn-refused
+9944/tcp  closed   unknown              conn-refused
+9968/tcp  closed   unknown              conn-refused
+9998/tcp  closed   distinct32           conn-refused
+9999/tcp  closed   abyss                conn-refused
+10000/tcp closed   snet-sensor-mgmt     conn-refused
+10001/tcp closed   scp-config           conn-refused
+10002/tcp closed   documentum           conn-refused
+10003/tcp closed   documentum_s         conn-refused
+10004/tcp closed   emcrmirccd           conn-refused
+10009/tcp closed   swdtp-sv             conn-refused
+10010/tcp closed   rxapi                conn-refused
+10012/tcp closed   unknown              conn-refused
+10024/tcp closed   unknown              conn-refused
+10025/tcp closed   unknown              conn-refused
+10082/tcp closed   amandaidx            conn-refused
+10180/tcp closed   unknown              conn-refused
+10215/tcp closed   unknown              conn-refused
+10243/tcp open     unknown              syn-ack
+10566/tcp closed   unknown              conn-refused
+10616/tcp closed   unknown              conn-refused
+10617/tcp closed   unknown              conn-refused
+10621/tcp closed   unknown              conn-refused
+10626/tcp closed   unknown              conn-refused
+10628/tcp closed   unknown              conn-refused
+10629/tcp closed   unknown              conn-refused
+10778/tcp closed   unknown              conn-refused
+11110/tcp closed   unknown              conn-refused
+11111/tcp closed   vce                  conn-refused
+11967/tcp closed   sysinfo-sp           conn-refused
+12000/tcp closed   cce4x                conn-refused
+12174/tcp closed   unknown              conn-refused
+12265/tcp closed   unknown              conn-refused
+12345/tcp closed   netbus               conn-refused
+13456/tcp closed   unknown              conn-refused
+13722/tcp closed   netbackup            conn-refused
+13782/tcp closed   netbackup            conn-refused
+13783/tcp closed   netbackup            conn-refused
+14000/tcp closed   scotty-ft            conn-refused
+14238/tcp closed   unknown              conn-refused
+14441/tcp closed   unknown              conn-refused
+14442/tcp closed   unknown              conn-refused
+15000/tcp closed   hydap                conn-refused
+15002/tcp closed   unknown              conn-refused
+15003/tcp closed   unknown              conn-refused
+15004/tcp closed   unknown              conn-refused
+15660/tcp closed   bex-xr               conn-refused
+15742/tcp closed   unknown              conn-refused
+16000/tcp closed   fmsas                conn-refused
+16001/tcp closed   fmsascon             conn-refused
+16012/tcp closed   unknown              conn-refused
+16016/tcp closed   unknown              conn-refused
+16018/tcp closed   unknown              conn-refused
+16080/tcp closed   osxwebadmin          conn-refused
+16113/tcp closed   unknown              conn-refused
+16992/tcp closed   amt-soap-http        conn-refused
+16993/tcp closed   amt-soap-https       conn-refused
+17877/tcp closed   unknown              conn-refused
+17988/tcp closed   unknown              conn-refused
+18040/tcp closed   unknown              conn-refused
+18101/tcp closed   unknown              conn-refused
+18988/tcp closed   unknown              conn-refused
+19101/tcp closed   unknown              conn-refused
+19283/tcp closed   keysrvr              conn-refused
+19315/tcp closed   keyshadow            conn-refused
+19350/tcp closed   unknown              conn-refused
+19780/tcp filtered unknown              no-response
+19801/tcp closed   unknown              conn-refused
+19842/tcp closed   unknown              conn-refused
+20000/tcp closed   dnp                  conn-refused
+20005/tcp closed   btx                  conn-refused
+20031/tcp closed   unknown              conn-refused
+20221/tcp closed   unknown              conn-refused
+20222/tcp closed   ipulse-ics           conn-refused
+20828/tcp closed   unknown              conn-refused
+21571/tcp closed   unknown              conn-refused
+22939/tcp closed   unknown              conn-refused
+23502/tcp closed   unknown              conn-refused
+24444/tcp closed   unknown              conn-refused
+24800/tcp closed   unknown              conn-refused
+25734/tcp closed   unknown              conn-refused
+25735/tcp closed   unknown              conn-refused
+26214/tcp closed   unknown              conn-refused
+27000/tcp closed   flexlm0              conn-refused
+27352/tcp closed   unknown              conn-refused
+27353/tcp closed   unknown              conn-refused
+27355/tcp closed   unknown              conn-refused
+27356/tcp closed   unknown              conn-refused
+27715/tcp closed   unknown              conn-refused
+28201/tcp closed   unknown              conn-refused
+30000/tcp closed   unknown              conn-refused
+30718/tcp closed   unknown              conn-refused
+30951/tcp closed   unknown              conn-refused
+31038/tcp closed   unknown              conn-refused
+31337/tcp closed   Elite                conn-refused
+32768/tcp closed   filenet-tms          conn-refused
+32769/tcp closed   filenet-rpc          conn-refused
+32770/tcp closed   sometimes-rpc3       conn-refused
+32771/tcp closed   sometimes-rpc5       conn-refused
+32772/tcp closed   sometimes-rpc7       conn-refused
+32773/tcp closed   sometimes-rpc9       conn-refused
+32774/tcp closed   sometimes-rpc11      conn-refused
+32775/tcp closed   sometimes-rpc13      conn-refused
+32776/tcp closed   sometimes-rpc15      conn-refused
+32777/tcp closed   sometimes-rpc17      conn-refused
+32778/tcp closed   sometimes-rpc19      conn-refused
+32779/tcp closed   sometimes-rpc21      conn-refused
+32780/tcp closed   sometimes-rpc23      conn-refused
+32781/tcp closed   unknown              conn-refused
+32782/tcp closed   unknown              conn-refused
+32783/tcp closed   unknown              conn-refused
+32784/tcp closed   unknown              conn-refused
+32785/tcp closed   unknown              conn-refused
+33354/tcp closed   unknown              conn-refused
+33899/tcp closed   unknown              conn-refused
+34571/tcp closed   unknown              conn-refused
+34572/tcp closed   unknown              conn-refused
+34573/tcp closed   unknown              conn-refused
+35500/tcp closed   unknown              conn-refused
+38292/tcp closed   landesk-cba          conn-refused
+40193/tcp closed   unknown              conn-refused
+40911/tcp closed   unknown              conn-refused
+41511/tcp closed   unknown              conn-refused
+42510/tcp closed   caerpc               conn-refused
+44176/tcp closed   unknown              conn-refused
+44442/tcp closed   coldfusion-auth      conn-refused
+44443/tcp closed   coldfusion-auth      conn-refused
+44501/tcp closed   unknown              conn-refused
+45100/tcp closed   unknown              conn-refused
+48080/tcp closed   unknown              conn-refused
+49152/tcp open     unknown              syn-ack
+49153/tcp open     unknown              syn-ack
+49154/tcp open     unknown              syn-ack
+49155/tcp open     unknown              syn-ack
+49156/tcp open     unknown              syn-ack
+49157/tcp closed   unknown              conn-refused
+49158/tcp closed   unknown              conn-refused
+49159/tcp closed   unknown              conn-refused
+49160/tcp closed   unknown              conn-refused
+49161/tcp closed   unknown              conn-refused
+49163/tcp open     unknown              syn-ack
+49165/tcp closed   unknown              conn-refused
+49167/tcp closed   unknown              conn-refused
+49175/tcp closed   unknown              conn-refused
+49176/tcp closed   unknown              conn-refused
+49400/tcp closed   compaqdiag           conn-refused
+49999/tcp closed   unknown              conn-refused
+50000/tcp closed   ibm-db2              conn-refused
+50001/tcp closed   unknown              conn-refused
+50002/tcp closed   iiimsf               conn-refused
+50003/tcp closed   unknown              conn-refused
+50006/tcp closed   unknown              conn-refused
+50300/tcp closed   unknown              conn-refused
+50389/tcp closed   unknown              conn-refused
+50500/tcp closed   unknown              conn-refused
+50636/tcp closed   unknown              conn-refused
+50800/tcp closed   unknown              conn-refused
+51103/tcp closed   unknown              conn-refused
+51493/tcp closed   unknown              conn-refused
+52673/tcp closed   unknown              conn-refused
+52822/tcp closed   unknown              conn-refused
+52848/tcp closed   unknown              conn-refused
+52869/tcp closed   unknown              conn-refused
+54045/tcp closed   unknown              conn-refused
+54328/tcp closed   unknown              conn-refused
+55055/tcp closed   unknown              conn-refused
+55056/tcp closed   unknown              conn-refused
+55555/tcp closed   unknown              conn-refused
+55600/tcp closed   unknown              conn-refused
+56737/tcp closed   unknown              conn-refused
+56738/tcp closed   unknown              conn-refused
+57294/tcp closed   unknown              conn-refused
+57797/tcp closed   unknown              conn-refused
+58080/tcp closed   unknown              conn-refused
+60020/tcp closed   unknown              conn-refused
+60443/tcp closed   unknown              conn-refused
+61532/tcp closed   unknown              conn-refused
+61900/tcp closed   unknown              conn-refused
+62078/tcp closed   iphone-sync          conn-refused
+63331/tcp closed   unknown              conn-refused
+64623/tcp closed   unknown              conn-refused
+64680/tcp closed   unknown              conn-refused
+65000/tcp closed   unknown              conn-refused
+65129/tcp closed   unknown              conn-refused
+65389/tcp closed   unknown              conn-refused
+
+Read from /usr/local/bin/../share/nmap: nmap-payloads nmap-services.
+# Nmap done at Wed Nov 18 01:27:04 2015 -- 1 IP address (1 host up) scanned in 53.15 seconds

@@ -1,0 +1,34 @@
+<stix:STIX_Package 
+	xmlns:cybox="http://cybox.mitre.org/cybox-2"
+	xmlns:cyboxCommon="http://cybox.mitre.org/common-2"
+	xmlns:cyboxVocabs="http://cybox.mitre.org/default_vocabularies-2"
+	xmlns:example="http://example.com"
+	xmlns:incident="http://stix.mitre.org/Incident-1"
+	xmlns:stix="http://stix.mitre.org/stix-1"
+	xmlns:stixCommon="http://stix.mitre.org/common-1"
+	xmlns:stixVocabs="http://stix.mitre.org/default_vocabularies-1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="example:Package-b76604b0-7cde-4910-a206-7be7214e7dee" version="1.2">
+    <stix:Incidents>
+        <stix:Incident id="example:incident-4aa1f364-3c0c-4f15-8755-555c163b52c8" timestamp="2016-04-06T20:12:13.710164+00:00" xsi:type='incident:IncidentType'>
+            <incident:Title>Exfiltration of Information on Connected mounted devices to the host/target system.</incident:Title>
+            <incident:Affected_Assets>
+                <incident:Affected_Asset>
+                    <incident:Type count_affected="1">Peripheral Devices</incident:Type>
+                    <incident:Description>Hosts Mounted Devices and Drives</incident:Description>
+                    <incident:Business_Function_Or_Role>Input and Output to the system</incident:Business_Function_Or_Role>
+                    <incident:Ownership_Class xsi:type="stixVocabs:OwnershipClassVocab-1.0">Internally-Owned</incident:Ownership_Class>
+                    <incident:Management_Class xsi:type="stixVocabs:ManagementClassVocab-1.0">Internally-Managed</incident:Management_Class>
+                    <incident:Location_Class xsi:type="stixVocabs:LocationClassVocab-1.0">Internally-Located</incident:Location_Class>
+                    <incident:Nature_Of_Security_Effect>
+                        <incident:Property_Affected>
+                            <incident:Property xsi:type="stixVocabs:LossPropertyVocab-1.0">Confidentiality</incident:Property>
+                            <incident:Description_Of_Effect>Information regarding connected peripheral/mounted devices was exfiltrated</incident:Description_Of_Effect>
+                            <incident:Non_Public_Data_Compromised data_encrypted="false">Yes</incident:Non_Public_Data_Compromised>
+                        </incident:Property_Affected>
+                    </incident:Nature_Of_Security_Effect>
+                </incident:Affected_Asset>
+            </incident:Affected_Assets>
+        </stix:Incident>
+    </stix:Incidents>
+</stix:STIX_Package>
+

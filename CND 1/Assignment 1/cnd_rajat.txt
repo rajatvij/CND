@@ -1,0 +1,5 @@
+Sleep is located at 0x762510ff in kernel32.dll
+OS Name:                   Microsoft Windows 7 Professional
+OS Version:                6.1.7601 Service Pack 1 Build 7601
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)

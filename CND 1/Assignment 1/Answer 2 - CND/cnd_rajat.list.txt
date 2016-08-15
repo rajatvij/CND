@@ -1,0 +1,9 @@
+     1                                  BITS 32
+     2                                  section .text
+     3                                  	global_start:
+     4                                  _start:
+     5 00000000 BBFF102576              	mov ebx, 0x762510ff
+     6 00000005 B800000000              	mov eax, 0
+     7 0000000A B8A00F0000              	mov eax, 4000
+     8 0000000F 50                      	push eax
+     9 00000010 FFD3                    	call ebx

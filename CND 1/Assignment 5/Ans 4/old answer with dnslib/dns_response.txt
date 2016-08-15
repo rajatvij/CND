@@ -1,0 +1,201 @@
+[<DNS Header: id=0x43a7 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google0.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x6272 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google1.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x10bb type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google2.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x538f type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google3.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x76af type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google4.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xc7bf type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google5.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xb3f3 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google6.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x73cb type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google7.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x9715 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google8.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x996a type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google9.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x3a77 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google10.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xd297 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google11.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x21be type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google12.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xae6d type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google13.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x15cb type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google14.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x468f type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google15.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x42e5 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google16.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x7b73 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google17.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x2728 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google18.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x893f type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google19.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xb1be type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google20.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xc8cd type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google21.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xddaa type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google22.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x8e46 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google23.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x3cef type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google24.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x937f type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google25.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x6f48 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google26.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x5e8e type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google27.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x1cf type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google28.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x968b type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google29.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x1212 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google30.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x64a type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google31.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xd5b0 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google32.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xe357 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google33.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xedae type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google34.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x76a1 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google35.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xf77f type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google36.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x30d2 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google37.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x8570 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google38.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x9c3e type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google39.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x1999 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google40.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x3511 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google41.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x842c type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google42.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x915c type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google43.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xb78a type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google44.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x2ed6 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google45.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x78ca type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google46.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xb3e4 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google47.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x692 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google48.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xc98d type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google49.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xa735 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google50.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x2b8f type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google51.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x93dd type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google52.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x98b0 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google53.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x4c09 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google54.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x1f12 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google55.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xc5d3 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google56.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x248d type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google57.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x1997 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google58.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x385c type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google59.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xfc31 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google60.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x6268 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google61.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xd948 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google62.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x1d9b type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google63.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x2a08 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google64.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xad1b type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google65.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x7582 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google66.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xadb6 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google67.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x7f38 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google68.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xf292 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google69.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xcdfd type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google70.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xfeab type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google71.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x678f type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google72.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x1c16 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google73.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x62d0 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google74.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x5da3 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google75.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x10b7 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google76.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x9d65 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google77.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x5af5 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google78.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xa20f type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google79.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xb08d type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google80.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xc90a type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google81.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x14c6 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google82.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x9f3f type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google83.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x5727 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google84.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x318e type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google85.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x6f33 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google86.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x565d type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google87.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xb730 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google88.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x3ffd type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google89.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x352d type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google90.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x32fc type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google91.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xd96e type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google92.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xd71d type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google93.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0xae87 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google94.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x8e6f type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google95.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x4c6a type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google96.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x20e8 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google97.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x65b3 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google98.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>, <DNS Header: id=0x993 type=RESPONSE opcode=QUERY flags=AA,RA rcode='NOERROR' q=1 a=1 ns=0 ar=0>
+<DNS Question: 'z.tiwaz.net.' qtype=A qclass=IN>
+<DNS RR: 'www.google99.com.' rtype=NS rclass=IN ttl=0 rdata='127.0.0.1'>]

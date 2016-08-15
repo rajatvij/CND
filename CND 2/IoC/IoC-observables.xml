@@ -1,0 +1,18 @@
+<cybox:Observables cybox_major_version="2" cybox_minor_version="1" cybox_update_version="0">
+    <cybox:Observable id="example:Observable-1">
+        <cybox:Object id="example:Process-2">
+            <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                <ProcessObj:Name condition="Equals">cmd.exe</ProcessObj:Name>
+                <ProcessObj:Image_Info>
+                    <ProcessObj:Command_Line condition="Contains">cmd.exe /c ipconfig</ProcessObj:Command_Line>
+                </ProcessObj:Image_Info>
+            </cybox:Properties>
+        </cybox:Object>
+    </cybox:Observable>
+    <cybox:Observable id="example:Observable-4">
+        <cybox:Observable_Composition operator="OR">
+            <cybox:Observable idref="example:Observable-1">
+            </cybox:Observable>
+        </cybox:Observable_Composition>
+    </cybox:Observable>
+</cybox:Observables>

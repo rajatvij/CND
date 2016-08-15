@@ -1,0 +1,35 @@
+<stix:STIX_Package 
+	xmlns:AddressObj="http://cybox.mitre.org/objects#AddressObject-2"
+	xmlns:cybox="http://cybox.mitre.org/cybox-2"
+	xmlns:cyboxCommon="http://cybox.mitre.org/common-2"
+	xmlns:cyboxVocabs="http://cybox.mitre.org/default_vocabularies-2"
+	xmlns:example="http://example.com"
+	xmlns:indicator="http://stix.mitre.org/Indicator-2"
+	xmlns:stix="http://stix.mitre.org/stix-1"
+	xmlns:stixCommon="http://stix.mitre.org/common-1"
+	xmlns:stixVocabs="http://stix.mitre.org/default_vocabularies-1"
+	xmlns:ttp="http://stix.mitre.org/TTP-1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="example:Package-6279a9ef-be94-457e-bb03-e6e4a9090b4f" version="1.2">
+    <stix:Indicators>
+        <stix:Indicator id="example:indicator-46d5d43d-b29f-45c2-8948-0407726a9df8" timestamp="2016-04-06T20:10:19.384882+00:00" xsi:type='indicator:IndicatorType'>
+            <indicator:Title>IP Address for known C2 Channel</indicator:Title>
+            <indicator:Type xsi:type="stixVocabs:IndicatorTypeVocab-1.1">IP Watchlist</indicator:Type>
+            <indicator:Observable id="example:Observable-a88610fb-66a8-4ef9-ae8c-c9dd5e41491c">
+                <cybox:Object id="example:Address-b9ab0537-ee16-4412-ac04-20dde9fab3b6">
+                    <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                        <AddressObj:Address_Value condition="Equals">128.164.219.56</AddressObj:Address_Value>
+                    </cybox:Properties>
+                </cybox:Object>
+            </indicator:Observable>
+            <indicator:Indicated_TTP>
+                <stixCommon:TTP idref="example:ttp-d9e1d670-2966-4508-ae19-796c73c35b2e" xsi:type='ttp:TTPType'/>
+            </indicator:Indicated_TTP>
+        </stix:Indicator>
+    </stix:Indicators>
+    <stix:TTPs>
+        <stix:TTP id="example:ttp-d9e1d670-2966-4508-ae19-796c73c35b2e" timestamp="2016-04-06T20:10:19.384761+00:00" xsi:type='ttp:TTPType'>
+            <ttp:Title>C2 Behavior</ttp:Title>
+        </stix:TTP>
+    </stix:TTPs>
+</stix:STIX_Package>
+

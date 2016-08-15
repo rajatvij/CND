@@ -1,0 +1,135 @@
+<stix:STIX_Package 
+	xmlns:AddressObj="http://cybox.mitre.org/objects#AddressObject-2"
+	xmlns:cybox="http://cybox.mitre.org/cybox-2"
+	xmlns:cyboxCommon="http://cybox.mitre.org/common-2"
+	xmlns:cyboxVocabs="http://cybox.mitre.org/default_vocabularies-2"
+	xmlns:example="http://example.com"
+	xmlns:stix="http://stix.mitre.org/stix-1"
+	xmlns:stixCommon="http://stix.mitre.org/common-1"
+	xmlns:stixVocabs="http://stix.mitre.org/default_vocabularies-1"
+	xmlns:ttp="http://stix.mitre.org/TTP-1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="example:Package-53213773-af45-4d33-af06-25b55f5b5494" version="1.2">
+    <stix:Observables cybox_major_version="2" cybox_minor_version="1" cybox_update_version="0">
+        <cybox:Observable id="example:Observable-17a7d5d6-8869-4da4-8f3d-d91a6ee576b0">
+            <cybox:Object id="example:Address-e9314575-2e4f-4535-9f50-06793f31527c">
+                <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                    <AddressObj:Address_Value>192.168.1.3</AddressObj:Address_Value>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+        <cybox:Observable id="example:Observable-8864df21-ee6a-48ed-babf-e6499467bcd9">
+            <cybox:Object id="example:Address-7cc2c805-28e5-4e92-b5a8-1951f7a45c51">
+                <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                    <AddressObj:Address_Value>192.168.1.50</AddressObj:Address_Value>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+        <cybox:Observable id="example:Observable-62682b35-6419-44c2-bebb-cab0b02bc338">
+            <cybox:Object id="example:Address-06a14a2a-61ec-4037-8238-ff30fcbc8aae">
+                <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                    <AddressObj:Address_Value>169.254.127.100</AddressObj:Address_Value>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+        <cybox:Observable id="example:Observable-75e8aedc-5290-4b4f-ab75-5dc3554b5c92">
+            <cybox:Object id="example:Address-33f3df9f-096a-4083-b248-8a30c643df4d">
+                <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                    <AddressObj:Address_Value>169.254.183.168</AddressObj:Address_Value>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+        <cybox:Observable id="example:Observable-574521da-ad82-458e-8509-c4d441415f8d">
+            <cybox:Object id="example:Address-9f491ec8-9e31-422e-bf90-bfc376d73cb9">
+                <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                    <AddressObj:Address_Value>169.254.229.163</AddressObj:Address_Value>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+        <cybox:Observable id="example:Observable-1d7cbcec-1949-4a3c-bb41-0f9ed7b0b2c3">
+            <cybox:Object id="example:Address-91809073-f19e-4937-994b-07b5a3809a47">
+                <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                    <AddressObj:Address_Value>169.254.99.82</AddressObj:Address_Value>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+        <cybox:Observable id="example:Observable-e575b0e4-63b9-4554-a56c-59910b3bcec3">
+            <cybox:Object id="example:Address-ebaf7f50-53b6-41e8-9f9e-e2309de272bd">
+                <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                    <AddressObj:Address_Value>192.168.1.2</AddressObj:Address_Value>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+        <cybox:Observable id="example:Observable-c5511964-52ab-4c94-b4aa-3af992684635">
+            <cybox:Object id="example:Address-087095a3-6709-466d-a12f-f01e53521a61">
+                <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                    <AddressObj:Address_Value>173.194.208.98</AddressObj:Address_Value>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+        <cybox:Observable id="example:Observable-51d5a73e-bbac-4f47-8cf7-953f3681a4ea">
+            <cybox:Object id="example:Address-04f70ba7-151f-4971-b1b2-cbf96256a99f">
+                <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                    <AddressObj:Address_Value>104.16.25.190</AddressObj:Address_Value>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+        <cybox:Observable id="example:Observable-4bad4f0f-97f4-4a77-960a-359e43f4ac38">
+            <cybox:Object id="example:Address-bb7d8602-5a73-4db3-9735-4bcc88bb979f">
+                <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                    <AddressObj:Address_Value>216.58.195.142</AddressObj:Address_Value>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+        <cybox:Observable id="example:Observable-0040dedb-37aa-47f7-bf98-f0775d10fc6a">
+            <cybox:Object id="example:Address-7e17002e-315b-40ff-9641-a980b2f639d4">
+                <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                    <AddressObj:Address_Value>216.58.217.174</AddressObj:Address_Value>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+        <cybox:Observable id="example:Observable-5d39c0cf-593f-4b00-825d-4037ee2edbd7">
+            <cybox:Object id="example:Address-a3b83a67-8201-4de9-9bde-360a98bc3536">
+                <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                    <AddressObj:Address_Value>209.85.282.188</AddressObj:Address_Value>
+                </cybox:Properties>
+            </cybox:Object>
+        </cybox:Observable>
+    </stix:Observables>
+    <stix:TTPs>
+        <stix:TTP id="example:ttp-38e608b7-9ff1-4bb4-bf37-15d5a62cff7b" timestamp="2016-04-06T20:10:43.631412+00:00" xsi:type='ttp:TTPType'>
+            <ttp:Title>Malware C2 Channel</ttp:Title>
+            <ttp:Resources>
+                <ttp:Infrastructure>
+                    <ttp:Type>Malware C2</ttp:Type>
+                    <ttp:Observable_Characterization cybox_major_version="2" cybox_minor_version="1" cybox_update_version="0">
+                        <cybox:Observable idref="example:Observable-17a7d5d6-8869-4da4-8f3d-d91a6ee576b0">
+                        </cybox:Observable>
+                        <cybox:Observable idref="example:Observable-8864df21-ee6a-48ed-babf-e6499467bcd9">
+                        </cybox:Observable>
+                        <cybox:Observable idref="example:Observable-62682b35-6419-44c2-bebb-cab0b02bc338">
+                        </cybox:Observable>
+                        <cybox:Observable idref="example:Observable-75e8aedc-5290-4b4f-ab75-5dc3554b5c92">
+                        </cybox:Observable>
+                        <cybox:Observable idref="example:Observable-574521da-ad82-458e-8509-c4d441415f8d">
+                        </cybox:Observable>
+                        <cybox:Observable idref="example:Observable-1d7cbcec-1949-4a3c-bb41-0f9ed7b0b2c3">
+                        </cybox:Observable>
+                        <cybox:Observable idref="example:Observable-e575b0e4-63b9-4554-a56c-59910b3bcec3">
+                        </cybox:Observable>
+                        <cybox:Observable idref="example:Observable-c5511964-52ab-4c94-b4aa-3af992684635">
+                        </cybox:Observable>
+                        <cybox:Observable idref="example:Observable-51d5a73e-bbac-4f47-8cf7-953f3681a4ea">
+                        </cybox:Observable>
+                        <cybox:Observable idref="example:Observable-4bad4f0f-97f4-4a77-960a-359e43f4ac38">
+                        </cybox:Observable>
+                        <cybox:Observable idref="example:Observable-0040dedb-37aa-47f7-bf98-f0775d10fc6a">
+                        </cybox:Observable>
+                        <cybox:Observable idref="example:Observable-5d39c0cf-593f-4b00-825d-4037ee2edbd7">
+                        </cybox:Observable>
+                    </ttp:Observable_Characterization>
+                </ttp:Infrastructure>
+            </ttp:Resources>
+        </stix:TTP>
+    </stix:TTPs>
+</stix:STIX_Package>
+

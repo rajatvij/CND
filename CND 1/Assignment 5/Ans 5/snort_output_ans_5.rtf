@@ -1,0 +1,258 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf130
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red26\green26\blue26;\red16\green60\blue192;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs26 \cf2 \expnd0\expndtw0\kerning0
+[ Port Based Pattern Matching Memory ]\
++- [ Aho-Corasick Summary ] -------------------------------------\
+| Storage Format\'a0\'a0\'a0 : Full-Q \
+| Finite Automaton\'a0 : DFA\
+| Alphabet Size\'a0\'a0\'a0\'a0 : 256 Chars\
+| Sizeof State\'a0\'a0\'a0\'a0\'a0 : Variable (1,2,4 bytes)\
+| Instances\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 : 215\
+|\'a0\'a0\'a0\'a0 1 byte states : 202\
+|\'a0\'a0\'a0\'a0 2 byte states : 13\
+|\'a0\'a0\'a0\'a0 4 byte states : 0\
+| Characters\'a0\'a0\'a0\'a0\'a0\'a0\'a0 : 166246\
+| States\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 : 129448\
+| Transitions\'a0\'a0\'a0\'a0\'a0\'a0 : 18271278\
+| State Density\'a0\'a0\'a0\'a0 : 55.1%\
+| Patterns\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 : 8435\
+| Match States\'a0\'a0\'a0\'a0\'a0 : 9972\
+| Memory (MB)\'a0\'a0\'a0\'a0\'a0\'a0 : 66.98\
+|\'a0\'a0 Patterns\'a0\'a0\'a0\'a0\'a0\'a0\'a0 : 0.96\
+|\'a0\'a0 Match Lists\'a0\'a0\'a0\'a0 : 2.19\
+|\'a0\'a0 DFA\
+|\'a0\'a0\'a0\'a0 1 byte states : 1.27\
+|\'a0\'a0\'a0\'a0 2 byte states : 62.20\
+|\'a0\'a0\'a0\'a0 4 byte states : 0.00\
++----------------------------------------------------------------\
+[ Number of patterns truncated to 20 bytes: 482 ]\
+pcap DAQ configured to read-file.\
+Acquiring network traffic from "/root/Desktop/csci6542-signature-pcap-v1.pcap".\
+Reload thread starting...\
+Reload thread started, thread 0x7fad2339c700 (5467)\
+WARNING: active responses disabled since DAQ can't inject packets.\
+\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 --== Initialization Complete ==--\
+\
+\'a0\'a0 ,,_\'a0\'a0\'a0\'a0 -*> Snort! <*-\
+\'a0 o"\'a0 )~\'a0\'a0 Version 2.9.7.6 GRE (Build 285) \
+\'a0\'a0 ''''\'a0\'a0\'a0 By Martin Roesch & The Snort Team: {\field{\*\fldinst{HYPERLINK "http://www.snort.org/contact#team"}}{\fldrslt \cf3 \ul \ulc3 http://www.snort.org/contact#team}}\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Copyright (C) 2014-2015 Cisco and/or its affiliates. All rights reserved.\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Copyright (C) 1998-2013 Sourcefire, Inc., et al.\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Using libpcap version 1.7.4\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Using PCRE version: 8.35 2014-04-04\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Using ZLIB version: 1.2.8\
+\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Rules Engine: SF_SNORT_DETECTION_ENGINE\'a0 Version 2.4\'a0 <Build 1>\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Preprocessor Object: SF_GTP\'a0 Version 1.1\'a0 <Build 1>\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Preprocessor Object: SF_POP\'a0 Version 1.0\'a0 <Build 1>\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Preprocessor Object: SF_REPUTATION\'a0 Version 1.1\'a0 <Build 1>\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Preprocessor Object: SF_SMTP\'a0 Version 1.1\'a0 <Build 9>\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Preprocessor Object: SF_FTPTELNET\'a0 Version 1.2\'a0 <Build 13>\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Preprocessor Object: SF_DNP3\'a0 Version 1.1\'a0 <Build 1>\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Preprocessor Object: SF_DCERPC2\'a0 Version 1.0\'a0 <Build 3>\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Preprocessor Object: SF_MODBUS\'a0 Version 1.1\'a0 <Build 1>\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Preprocessor Object: SF_IMAP\'a0 Version 1.0\'a0 <Build 1>\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Preprocessor Object: SF_SSH\'a0 Version 1.1\'a0 <Build 3>\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Preprocessor Object: SF_SDF\'a0 Version 1.1\'a0 <Build 1>\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Preprocessor Object: SF_SIP\'a0 Version 1.1\'a0 <Build 1>\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Preprocessor Object: SF_SSLPP\'a0 Version 1.1\'a0 <Build 4>\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Preprocessor Object: SF_DNS\'a0 Version 1.1\'a0 <Build 4>\
+Commencing packet processing (pid=5456)\
+09/20-23:49:15.391669\'a0 [**] [1:1000004:0] \'94ALERT! Assignment 5 - Connection Initiation \'93 [**] [Priority: 0] \{TCP\} {\field{\*\fldinst{HYPERLINK "http://172.16.40.138:50930/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.138:50930}} -> {\field{\*\fldinst{HYPERLINK "http://172.16.40.134:443/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.134:443}}\
+09/20-23:49:15.394957\'a0 [**] [1:1000005:0] \'94ALERT! Fishy request packet \'93 [**] [Priority: 0] \{TCP\} {\field{\*\fldinst{HYPERLINK "http://172.16.40.138:50930/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.138:50930}} -> {\field{\*\fldinst{HYPERLINK "http://172.16.40.134:443/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.134:443}}\
+09/20-23:49:15.399700\'a0 [**] [1:1000008:0] \'94ALERT! second Fishy request packet \'93 [**] [Priority: 0] \{TCP\} {\field{\*\fldinst{HYPERLINK "http://172.16.40.138:50930/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.138:50930}} -> {\field{\*\fldinst{HYPERLINK "http://172.16.40.134:443/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.134:443}}\
+09/20-23:49:19.623536\'a0 [**] [1:1000004:0] \'94ALERT! Assignment 5 - Connection Initiation \'93 [**] [Priority: 0] \{TCP\} {\field{\*\fldinst{HYPERLINK "http://172.16.40.138:50931/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.138:50931}} -> {\field{\*\fldinst{HYPERLINK "http://172.16.40.134:443/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.134:443}}\
+09/20-23:49:19.624051\'a0 [**] [1:1000005:0] \'94ALERT! Fishy request packet \'93 [**] [Priority: 0] \{TCP\} {\field{\*\fldinst{HYPERLINK "http://172.16.40.138:50931/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.138:50931}} -> {\field{\*\fldinst{HYPERLINK "http://172.16.40.134:443/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.134:443}}\
+09/20-23:49:22.109010\'a0 [**] [1:1000004:0] \'94ALERT! Assignment 5 - Connection Initiation \'93 [**] [Priority: 0] \{TCP\} {\field{\*\fldinst{HYPERLINK "http://172.16.40.138:50932/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.138:50932}} -> {\field{\*\fldinst{HYPERLINK "http://172.16.40.134:443/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.134:443}}\
+09/20-23:49:22.109433\'a0 [**] [1:1000005:0] \'94ALERT! Fishy request packet \'93 [**] [Priority: 0] \{TCP\} {\field{\*\fldinst{HYPERLINK "http://172.16.40.138:50932/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.138:50932}} -> {\field{\*\fldinst{HYPERLINK "http://172.16.40.134:443/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.134:443}}\
+09/20-23:49:24.998798\'a0 [**] [1:1000004:0] \'94ALERT! Assignment 5 - Connection Initiation \'93 [**] [Priority: 0] \{TCP\} {\field{\*\fldinst{HYPERLINK "http://172.16.40.138:50933/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.138:50933}} -> {\field{\*\fldinst{HYPERLINK "http://172.16.40.134:443/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.134:443}}\
+09/20-23:49:24.999400\'a0 [**] [1:1000005:0] \'94ALERT! Fishy request packet \'93 [**] [Priority: 0] \{TCP\} {\field{\*\fldinst{HYPERLINK "http://172.16.40.138:50933/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.138:50933}} -> {\field{\*\fldinst{HYPERLINK "http://172.16.40.134:443/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.134:443}}\
+09/20-23:49:33.128024\'a0 [**] [1:1000004:0] \'94ALERT! Assignment 5 - Connection Initiation \'93 [**] [Priority: 0] \{TCP\} {\field{\*\fldinst{HYPERLINK "http://172.16.40.138:50935/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.138:50935}} -> {\field{\*\fldinst{HYPERLINK "http://172.16.40.134:443/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.134:443}}\
+09/20-23:49:33.128730\'a0 [**] [1:1000005:0] \'94ALERT! Fishy request packet \'93 [**] [Priority: 0] \{TCP\} {\field{\*\fldinst{HYPERLINK "http://172.16.40.138:50935/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.138:50935}} -> {\field{\*\fldinst{HYPERLINK "http://172.16.40.134:443/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.134:443}}\
+09/20-23:49:36.728970\'a0 [**] [1:1000004:0] \'94ALERT! Assignment 5 - Connection Initiation \'93 [**] [Priority: 0] \{TCP\} {\field{\*\fldinst{HYPERLINK "http://172.16.40.138:50936/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.138:50936}} -> {\field{\*\fldinst{HYPERLINK "http://172.16.40.134:443/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.134:443}}\
+09/20-23:49:36.729507\'a0 [**] [1:1000005:0] \'94ALERT! Fishy request packet \'93 [**] [Priority: 0] \{TCP\} {\field{\*\fldinst{HYPERLINK "http://172.16.40.138:50936/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.138:50936}} -> {\field{\*\fldinst{HYPERLINK "http://172.16.40.134:443/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.134:443}}\
+09/20-23:49:42.342685\'a0 [**] [1:1000004:0] \'94ALERT! Assignment 5 - Connection Initiation \'93 [**] [Priority: 0] \{TCP\} {\field{\*\fldinst{HYPERLINK "http://172.16.40.138:50937/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.138:50937}} -> {\field{\*\fldinst{HYPERLINK "http://172.16.40.134:443/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.134:443}}\
+09/20-23:49:42.345965\'a0 [**] [1:1000005:0] \'94ALERT! Fishy request packet \'93 [**] [Priority: 0] \{TCP\} {\field{\*\fldinst{HYPERLINK "http://172.16.40.138:50937/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.138:50937}} -> {\field{\*\fldinst{HYPERLINK "http://172.16.40.134:443/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.134:443}}\
+09/20-23:49:45.643419\'a0 [**] [1:1000004:0] \'94ALERT! Assignment 5 - Connection Initiation \'93 [**] [Priority: 0] \{TCP\} {\field{\*\fldinst{HYPERLINK "http://172.16.40.138:50939/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.138:50939}} -> {\field{\*\fldinst{HYPERLINK "http://172.16.40.134:443/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.134:443}}\
+09/20-23:49:45.644734\'a0 [**] [1:1000005:0] \'94ALERT! Fishy request packet \'93 [**] [Priority: 0] \{TCP\} {\field{\*\fldinst{HYPERLINK "http://172.16.40.138:50939/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.138:50939}} -> {\field{\*\fldinst{HYPERLINK "http://172.16.40.134:443/"}}{\fldrslt \cf3 \ul \ulc3 172.16.40.134:443}}\
+===============================================================================\
+Run time for packet processing was 1.1125 seconds\
+Snort processed 132 packets.\
+Snort ran for 0 days 0 hours 0 minutes 1 seconds\
+\'a0\'a0 Pkts/sec:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 132\
+===============================================================================\
+Memory usage summary:\
+\'a0 Total non-mmapped bytes (arena):\'a0\'a0\'a0\'a0\'a0\'a0 382111744\
+\'a0 Bytes in mapped regions (hblkhd):\'a0\'a0\'a0\'a0\'a0 14004224\
+\'a0 Total allocated space (uordblks):\'a0\'a0\'a0\'a0\'a0 121928496\
+\'a0 Total free space (fordblks):\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 260183248\
+\'a0 Topmost releasable block (keepcost):\'a0\'a0 68912\
+===============================================================================\
+Packet I/O Totals:\
+\'a0\'a0 Received:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 132\
+\'a0\'a0 Analyzed:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 132 (100.000%)\
+\'a0\'a0\'a0 Dropped:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0 Filtered:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+Outstanding:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0 Injected:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0\
+===============================================================================\
+Breakdown by protocol (includes rebuilt packets):\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Eth:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 140 (100.000%)\
+\'a0\'a0\'a0\'a0\'a0\'a0 VLAN:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 IP4:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 140 (100.000%)\
+\'a0\'a0\'a0\'a0\'a0\'a0 Frag:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0\'a0\'a0\'a0 ICMP:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 UDP:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 TCP:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 140 (100.000%)\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 IP6:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0 IP6 Ext:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0 IP6 Opts:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0\'a0\'a0 Frag6:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0\'a0\'a0 ICMP6:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0\'a0\'a0\'a0 UDP6:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0\'a0\'a0\'a0 TCP6:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0\'a0 Teredo:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0 ICMP-IP:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0 IP4/IP4:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0 IP4/IP6:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0 IP6/IP4:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0 IP6/IP6:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 GRE:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0 GRE Eth:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0 GRE VLAN:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0 GRE IP4:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0 GRE IP6:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+GRE IP6 Ext:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0 GRE PPTP:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0 GRE ARP:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0 GRE IPX:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0 GRE Loop:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0\'a0\'a0\'a0 MPLS:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 ARP:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 IPX:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0 Eth Loop:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0 Eth Disc:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0 IP4 Disc:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0 IP6 Disc:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0 TCP Disc:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0 UDP Disc:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0 ICMP Disc:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+All Discard:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0\'a0\'a0 Other:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+Bad Chk Sum:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 15 ( 10.714%)\
+\'a0\'a0\'a0 Bad TTL:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0\'a0 S5 G 1:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0\'a0 S5 G 2:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 8 (\'a0 5.714%)\
+\'a0\'a0\'a0\'a0\'a0 Total:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 140\
+===============================================================================\
+Action Stats:\
+\'a0\'a0\'a0\'a0 Alerts:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 17 ( 12.143%)\
+\'a0\'a0\'a0\'a0 Logged:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 17 ( 12.143%)\
+\'a0\'a0\'a0\'a0 Passed:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+Limits:\
+\'a0\'a0\'a0\'a0\'a0 Match:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0\
+\'a0\'a0\'a0\'a0\'a0 Queue:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Log:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0\
+\'a0\'a0\'a0\'a0\'a0 Event:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0\
+\'a0\'a0\'a0\'a0\'a0 Alert:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 9\
+Verdicts:\
+\'a0\'a0\'a0\'a0\'a0 Allow:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 132 (100.000%)\
+\'a0\'a0\'a0\'a0\'a0 Block:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0 Replace:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0 Whitelist:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0 Blacklist:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0\'a0 Ignore:\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+\'a0\'a0\'a0\'a0 (null):\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 0 (\'a0 0.000%)\
+===============================================================================\
+Frag3 statistics:\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Total Fragments: 0\
+\'a0\'a0\'a0\'a0\'a0 Frags Reassembled: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Discards: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Memory Faults: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Timeouts: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Overlaps: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Anomalies: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Alerts: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Drops: 0\
+\'a0\'a0\'a0\'a0 FragTrackers Added: 0\
+\'a0\'a0\'a0 FragTrackers Dumped: 0\
+FragTrackers Auto Freed: 0\
+\'a0\'a0\'a0 Frag Nodes Inserted: 0\
+\'a0\'a0\'a0\'a0 Frag Nodes Deleted: 0\
+===============================================================================\
+===============================================================================\
+Stream statistics:\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Total sessions: 8\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 TCP sessions: 8\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 UDP sessions: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 ICMP sessions: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 IP sessions: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 TCP Prunes: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 UDP Prunes: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 ICMP Prunes: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 IP Prunes: 0\
+TCP StreamTrackers Created: 8\
+TCP StreamTrackers Deleted: 8\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 TCP Timeouts: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 TCP Overlaps: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0 TCP Segments Queued: 38\
+\'a0\'a0\'a0\'a0 TCP Segments Released: 38\
+\'a0\'a0\'a0\'a0\'a0\'a0 TCP Rebuilt Packets: 20\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 TCP Segments Used: 38\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 TCP Discards: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 TCP Gaps: 8\
+\'a0\'a0\'a0\'a0\'a0 UDP Sessions Created: 0\
+\'a0\'a0\'a0\'a0\'a0 UDP Sessions Deleted: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 UDP Timeouts: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 UDP Discards: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Events: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Internal Events: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 TCP Port Filter\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Filtered: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Inspected: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Tracked: 117\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 UDP Port Filter\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Filtered: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Inspected: 0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Tracked: 0\
+===============================================================================\
+===============================================================================\
+SMTP Preprocessor Statistics\
+\'a0 Total sessions\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 : 0\
+\'a0 Max concurrent sessions\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 : 0\
+===============================================================================\
+dcerpc2 Preprocessor Statistics\
+\'a0 Total sessions: 0\
+===============================================================================\
+SSL Preprocessor:\
+\'a0\'a0 SSL packets decoded: 58\'a0\'a0\'a0\'a0\'a0\'a0\'a0 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Client Hello: 0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Server Hello: 0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Certificate: 0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Server Done: 0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 \
+\'a0\'a0 Client Key Exchange: 0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 \
+\'a0\'a0 Server Key Exchange: 0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Change Cipher: 0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Finished: 0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 \
+\'a0\'a0\'a0 Client Application: 0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 \
+\'a0\'a0\'a0 Server Application: 0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Alert: 0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 \
+\'a0 Unrecognized records: 58\'a0\'a0\'a0\'a0\'a0\'a0\'a0 \
+\'a0 Completed handshakes: 0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0 Bad handshakes: 0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 \
+\'a0\'a0\'a0\'a0\'a0 Sessions ignored: 0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 \
+\'a0\'a0\'a0 Detection disabled: 0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 \
+===============================================================================\
+SIP Preprocessor Statistics\
+\'a0 Total sessions: 0\
+===============================================================================\
+Reputation Preprocessor Statistics\
+\'a0 Total Memory Allocated: 0\
+===============================================================================\
+Snort exiting}

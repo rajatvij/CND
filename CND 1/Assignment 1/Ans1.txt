@@ -1,0 +1,16 @@
+EAX 00529278 ASCII "Welcome!"
+EIP 762512EA -- ADD ESP 4 -- We can enter input from here
+
+First - 1982141162
+Last - 1982924833 
+diff - 783671/8 - 97958
+
+Buffer overflow - 408 bytes and 407 chars - recv failed 10038
+
+I used ollydb to know the values of EIP and EBP of the program at different situations and used netcat to connect to simpleprogram.exe.
+Program is crashing when entering more than 407 characters and 408 bytes.
+Used simple trial and error to find the number of characters required to crash the program.
+Address where our input begins on stack - 0018f908 and 0018f754.
+Address that becomes EIP which contains user input is 0018faa4.
+Programmer and write a condition where an error message is displayed if input is more than the desired characters and tell the user to enter only desired number of characters.
+Programmer can also trip the input to the desired number of characters.

